@@ -1,0 +1,30 @@
+.body{
+  width: 80%;
+  margin: 0 auto !important;;
+}
+
+.myForm{
+    margin-top: 80vh;
+    flex-wrap: wrap;
+    background-color: beige;
+
+}
+
+.row{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -1;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 33%;
+
+  }
+  
+.column img {
+    width: 50vh;
+    
+  }
